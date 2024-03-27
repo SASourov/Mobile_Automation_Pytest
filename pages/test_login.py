@@ -2,8 +2,9 @@ import time
 from appium import webdriver
 from selenium.webdriver.common.by import By
 
-from pages.clerance_page import MandatoryPage
-from pages.clerance_page import OpenApp, BmetReg
+from pages.clerance_page import OpenApp
+from pages.mandatory_page import MandatoryPage
+from pages.bmet_reg_pag import BmetReg
 
 desired_caps = {}
 desired_caps['platformVersion'] = '13'
